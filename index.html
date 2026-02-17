@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BOUDRAA Wa'hil</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="#competences">Compétences</a>
+                </li>
+                <li>
+                    <a href="#projet">Projet</a>
+                </li>
+                <li>
+                    <a href="#profil">Profil</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>WA'HIL BOUDRAA</h1>
+        <h2>Etudiant en BUT informatique, spécialisé en réalisation d'application</h2>
+        <div class="hero-image"></div>
+        <a href="#projet" class="btn-main">Voir mes projets</a>
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+        <div class="grilles-competences">
+            
+            <article>
+                <h3>Développement</h3>
+                <div class="logos-container">
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-cplusplus-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i> <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-kotlin-plain colored"></i> </div>
+            </article>
+    
+            <article>
+                <h3>Web & Frameworks</h3>
+                <div class="logos-container">
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                    <i class="devicon-symfony-original" style="color: white;"></i> 
+                    <i class="devicon-php-plain colored"></i>
+                </div>
+            </article>
+    
+            <article>
+                <h3>Outils & Bases de données</h3>
+                <div class="logos-container">
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-mysql-original colored"></i>
+                    <i class="devicon-unity-original" style="color: white;"></i>
+                    <i class="devicon-figma-plain colored"></i>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+    <section id="projet">
+        <h2>Mes Projets</h2>
+        <div class="grille-projets">
+            <article class="card-projet" data-id="catz-mess">
+                <div class="img-container">
+                    <img src="assets/catzMess.png" alt="Capture CATZ MESS">
+                </div>
+                <div class="projet-info">
+                    <h3>CATZ MESS</h3>
+                    <p>
+                        Jeu de plateforme coopératif (2 à 4 joueurs) développé en <strong>méthode Agile (Scrum)</strong>. 
+                        Le projet inclut un système de synchronisation multijoueur, une boutique de cosmétiques 
+                        et un éditeur de niveaux communautaire.
+                    </p>
+                    
+                    <div class="projet-highlights">
+                        <ul>
+                            <li><i class="fa-solid fa-users"></i> Coopératif & Multijoueur</li>
+                            <li><i class="fa-solid fa-hammer"></i> Éditeur de tuiles intégré</li>
+                            <li><i class="fa-solid fa-diagram-project"></i> Conception UML (DCU, DSEQ)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="projet-tech-logos">
+                        <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                        <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                        <i class="devicon-figma-plain colored" title="Figma"></i>
+                    </div>
+                    
+                    <a href="" target="_blank" class="btn-git">
+                        <i class="fa-brands fa-github"></i> en attente
+                    </a>
+                </div>
+            </article>
+            <article class="card-projet" data-id="fete-lumieres">
+                <div class="img-container">
+                    <img src="assets/feteDesLumieres.png" alt="Capture Navigation Fête des Lumières">
+                </div>
+                <div class="projet-info">
+                    <h3>Optimisation Fête des Lumières</h3>
+                    <p>
+                        Développement d'une application d'optimisation de parcours touristique. L'objectif est de minimiser le temps de trajet entre les différents points d'intérêt de Lyon tout en revenant au point de départ.
+                    </p>
+                    
+                    <div class="projet-highlights">
+                        <ul>
+                            <li><i class="fa-solid fa-diagram-project"></i> Algorithmes Gloutons & Insertion</li>
+                            <li><i class="fa-solid fa-map-location-dot"></i> Modélisation par Graphes</li>
+                            <li><i class="fa-solid fa-file-export"></i> Export de données (CSV/TXT)</li>
+                        </ul>
+                    </div>
+            
+                    <div class="projet-tech-logos">
+                        <i class="devicon-java-plain colored" title="Java"></i>
+                        <i class="devicon-figma-plain colored" title="Figma"></i>
+                        </div>
+                    
+                    <a href="https://github.com/wbdz69/Navigation-f-te-des-lumi-res" target="_blank" class="btn-git">
+                        <i class="fa-brands fa-github"></i> Voir le code
+                    </a>
+                </div>
+            </article>
+            <article class="card-projet" data-id="lecture-etoilee">
+                <div class="img-container">
+                    <img src="assets/lectureEtoilee.png" alt="Capture Lecture Étoilée">
+                </div>
+                <div class="projet-info">
+                    <h3>Lecture Étoilée</h3>
+                    <p>
+                        Conception et développement d'un blog dynamique dédié à la littérature. La plateforme permet la publication de critiques, la notation de livres et la gestion d'une bibliothèque personnelle.
+                    </p>
+                    
+                    <div class="projet-highlights">
+                        <ul>
+                            <li><i class="fa-solid fa-database"></i> CRUD complet (Articles, Commentaires)</li>
+                            <li><i class="fa-solid fa-lock"></i> Système d'authentification sécurisé</li>
+                            <li><i class="fa-solid fa-star"></i> Système de notation dynamique</li>
+                        </ul>
+                    </div>
+            
+                    <div class="projet-tech-logos">
+                        <i class="devicon-php-plain colored" title="PHP"></i>
+                        <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                        <i class="devicon-html5-plain colored" title="HTML5"></i>
+                        <i class="devicon-css3-plain colored" title="CSS3"></i>
+                    </div>
+                    
+                    <a href="https://github.com/wbdz69/Lecture-toil-e-blog-php-" target="_blank" class="btn-git">
+                        <i class="fa-brands fa-github"></i> Voir le code
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section id="profil">
+        <h2>Profil</h2>
+        <div class="grille-profil">
+            <div class="profil-photo">
+                <img src="assets/ppPortfolio.png" alt="Wa'hil Boudraa">
+            </div>
+            <div class="profil-content">
+                <div class="parcours">
+                    <h3>Moi / Parcours</h3>
+                    <p></p>
+                    <p>Étudiant en 2ème année de BUT Informatique à l'universite Claude Bernard Lyon 1, je me spécialise en Réalisation d’Applications. 
+                        <p>Passionné par le développement logiciel et web, j'allie une approche rigoureuse à une maîtrise technique polyvalente afin de remplir mes objectifs, c'est à dire réaliser des solutions innovantes.</p>
+                        <p>Fort d'une pratique de 10 ans de basketball en compétition, je cultive l'esprit d'équipe et la persévérance.</p> 
+                        <p>Je maîtrise des environnements variés, et je recherche actuellement un stage pour mettre mes compétences au service de projets concrets.</p>
+                </div>
+                <div class="passions">
+                    <h3>Mes Passions</h3>
+                    <p>
+                        <strong>Sports :</strong> Pratique régulière de <strong>sports collectifs</strong> et de <strong>sports de combat</strong>, développant mon esprit d'équipe, ma discipline et ma persévérance. <br>
+                        <strong>Gaming :</strong> Passionné par les jeux d'aventure, de simulation et les FPS compétitifs.<br>
+                        <strong>Culture & Voyage :</strong> Grand amateur de <strong>mangas</strong> et passionné par la découverte de nouveaux horizons à travers le <strong>voyage</strong>.
+                    </p>
+                </div>
+                <div class="infos-badge">
+                    <span><i class="fa-solid fa-cake-candles"></i> 19 ans</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Lyon</span>
+                    <span><i class="fa-solid fa-car"></i> Permis B</span>
+                </div>
+                <a href="assets/CV_WAHIL_BOUDRAA.pdf" class="btn-main" target="_blank">
+                    Voir mon CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <div class="contact-container">
+            <form action="https://formspree.io/f/xnjbvnzz" method="POST">
+    
+                <div class="form-group">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <input type="text" name="nom" placeholder="Nom" required>
+                </div>
+            
+                <div class="form-group">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+            
+                <div class="form-group align-top">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+            
+                <button type="submit" class="btn-envoyer">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <div id="image-zoom-modal" class="modal" style="z-index: 3000;">
+        <span class="close-zoom">&times;</span>
+        <img class="modal-content-zoom" id="zoomed-img">
+    </div>
+</body>
+</html>
