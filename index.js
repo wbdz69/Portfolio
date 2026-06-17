@@ -9,6 +9,25 @@ document.querySelector('.btn-main').addEventListener('click', function(e) {
 });
 
 const projectData = {
+    'stage-appymakers': {
+                title: "Stage AppyMakers : Portail ConcessLink",
+                desc: `
+                    <strong>Développement Front-end (WeWeb / Vue.js) :</strong>
+                    <ul style="margin-left: 20px; margin-top: 10px; color: var(--gray-text);">
+                        <li><strong>Développement No-Code :</strong> Création d'écrans métiers (Dashboards, Catalogues) complexes.</li>
+                        <li><strong>Développement Code :</strong> Création d'un composant sur mesure <em>Input Number</em> codé intégralement en <strong>Vue.js</strong>.</li>
+                    </ul>
+                    <br>
+                    <strong>Développement Back-end (Xano / PostgreSQL) :</strong>
+                    <ul style="margin-left: 20px; margin-top: 10px; color: var(--gray-text);">
+                        <li><strong>API REST :</strong> Création d'Endpoints CRUD sécurisés et gestion de la logique serveur.</li>
+                        <li><strong>Bases de données :</strong> Modélisation relationnelle et création de la fonction de factorisation <code>create_missing_tags</code>.</li>
+                    </ul>
+                    <br>
+                    <strong>Auto-évaluation et Bilan BUT :</strong> Ce stage m'a permis d'atteindre le niveau 2 des compétences <em>C1-Réaliser</em> et <em>C4-Gérer</em> grâce au déploiement d'une application professionnelle de A à Z en production.
+                `,
+                imgs: ["assets/brochure.png","assets/goodies.png","assets/mediatheque.png","assets/partenaires.png","assets/create_missing_tag.png"] 
+            },
    'catz-mess': {
         title: "CATZ MESS",
         desc: `

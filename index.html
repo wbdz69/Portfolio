@@ -13,28 +13,18 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="#accueil">Accueil</a>
-                </li>
-                <li>
-                    <a href="#competences">Compétences</a>
-                </li>
-                <li>
-                    <a href="#projet">Projet</a>
-                </li>
-                <li>
-                    <a href="#profil">Profil</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="accueil">
         <h1>WA'HIL BOUDRAA</h1>
-        <h2>Etudiant en BUT informatique, spécialisé en réalisation d'application</h2>
+        <h2>Étudiant en BUT Informatique, spécialisé en réalisation d'applications</h2>
         <div class="hero-image"></div>
         <a href="#projet" class="btn-main">Voir mes projets</a>
     </section>
@@ -42,15 +32,16 @@
     <section id="competences">
         <h2>Mes Compétences</h2>
         <div class="grilles-competences">
-            
             <article>
                 <h3>Développement</h3>
                 <div class="logos-container">
                     <i class="devicon-java-plain colored"></i>
                     <i class="devicon-cplusplus-plain colored"></i>
-                    <i class="devicon-c-plain colored"></i> <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i> 
+                    <i class="devicon-csharp-plain colored"></i>
                     <i class="devicon-python-plain colored"></i>
-                    <i class="devicon-kotlin-plain colored"></i> </div>
+                    <i class="devicon-kotlin-plain colored"></i> 
+                </div>
             </article>
     
             <article>
@@ -75,40 +66,75 @@
                     <i class="devicon-figma-plain colored"></i>
                 </div>
             </article>
-            
         </div>
     </section>
+
     <section id="projet">
-        <h2>Mes Projets</h2>
+        <h2>Mes Projets & Expériences</h2>
         <div class="grille-projets">
+
+            <article class="card-projet" data-id="stage-appymakers">
+                <div class="img-container">
+                    <img src="assets/brochure.png" alt="Stage AppyMakers ConcessLink">
+                </div>
+                <div class="projet-info">
+                    <h3>Stage AppyMakers - ConcessLink</h3>
+        
+                    <div class="competences-badges">
+                        <span class="badge-comp" title="Réaliser des applications">C1 - Réaliser</span>
+                        <span class="badge-comp" title="Gérer des données">C4 - Gérer</span>
+                        <span class="badge-comp" title="Répondre aux besoins clients">C5 - Conduire</span>
+                    </div>
+
+                    <p>
+                        Développement Front-end (WeWeb/Vue.js) et Back-end (Xano) d'un portail B2B pour le réseau Fassi France. Création de composants sur mesure et intégration d'APIs.
+                    </p>
+                    
+                    <div class="projet-highlights">
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i> Composants Vue.js</li>
+                            <li><i class="fa-solid fa-database"></i> Modélisation Xano</li>
+                            <li><i class="fa-solid fa-list-check"></i> Méthode Agile</li>
+                        </ul>
+                    </div>
+            
+                    <div class="projet-tech-logos">
+                        <i class="devicon-vuejs-plain colored" title="Vue.js"></i>
+                        <i class="fa-solid fa-database" title="Xano / PostgreSQL" style="color: #3b82f6;"></i>
+                    </div>
+
+                    <a href="assets/Rapport_de_stage.pdf" target="_blank" class="btn-git">
+                        <i class="fa-solid fa-file-pdf"></i> Lire le rapport de stage
+                    </a>
+                </div>
+            </article>
             <article class="card-projet" data-id="catz-mess">
                 <div class="img-container">
                     <img src="assets/catzMess.png" alt="Capture CATZ MESS">
                 </div>
                 <div class="projet-info">
                     <h3>CATZ MESS</h3>
+                    <div class="competences-badges">
+                        <span class="badge-comp">C1 - Réaliser</span>
+                        <span class="badge-comp">C6 - Collaborer</span>
+                    </div>
                     <p>
-                        Jeu de plateforme coopératif (2 à 4 joueurs) développé en <strong>méthode Agile (Scrum)</strong>. 
-                        Le projet inclut un système de synchronisation multijoueur, une boutique de cosmétiques 
-                        et un éditeur de niveaux communautaire.
+                        Jeu de plateforme coopératif (2 à 4 joueurs) développé en <strong>méthode Agile (Scrum)</strong>. Le projet inclut un système de synchronisation multijoueur.
                     </p>
-                    
                     <div class="projet-highlights">
                         <ul>
                             <li><i class="fa-solid fa-users"></i> Coopératif & Multijoueur</li>
                             <li><i class="fa-solid fa-hammer"></i> Éditeur de tuiles intégré</li>
-                            <li><i class="fa-solid fa-diagram-project"></i> Conception UML (DCU, DSEQ)</li>
+                            <li><i class="fa-solid fa-diagram-project"></i> Conception UML</li>
                         </ul>
                     </div>
-            
                     <div class="projet-tech-logos">
                         <i class="devicon-cplusplus-plain colored" title="C++"></i>
                         <i class="devicon-mysql-plain colored" title="MySQL"></i>
                         <i class="devicon-figma-plain colored" title="Figma"></i>
                     </div>
-                    
-                    <a href="assets/videoCatzMess.mp4" target="_blank" class="btn-git">
-                        <i class="fa-brands fa-github"></i> Voir la vidéo
+                    <a href="#" target="_blank" class="btn-git">
+                        <i class="fa-brands fa-github"></i> En attente
                     </a>
                 </div>
             </article>
@@ -118,53 +144,54 @@
                 </div>
                 <div class="projet-info">
                     <h3>Optimisation Fête des Lumières</h3>
+                    <div class="competences-badges">
+                        <span class="badge-comp">C2 - Optimiser</span>
+                    </div>
                     <p>
-                        Développement d'une application d'optimisation de parcours touristique. L'objectif est de minimiser le temps de trajet entre les différents points d'intérêt de Lyon tout en revenant au point de départ.
+                        Développement d'une application d'optimisation de parcours touristique. Algorithmes sur les graphes pour minimiser le temps de trajet.
                     </p>
-                    
                     <div class="projet-highlights">
                         <ul>
-                            <li><i class="fa-solid fa-diagram-project"></i> Algorithmes Gloutons & Insertion</li>
-                            <li><i class="fa-solid fa-map-location-dot"></i> Modélisation par Graphes</li>
-                            <li><i class="fa-solid fa-file-export"></i> Export de données (CSV/TXT)</li>
+                            <li><i class="fa-solid fa-diagram-project"></i> Algorithmes Gloutons</li>
+                            <li><i class="fa-solid fa-map-location-dot"></i> Graphes</li>
+                            <li><i class="fa-solid fa-file-export"></i> Export CSV/TXT</li>
                         </ul>
                     </div>
-            
                     <div class="projet-tech-logos">
                         <i class="devicon-java-plain colored" title="Java"></i>
                         <i class="devicon-figma-plain colored" title="Figma"></i>
-                        </div>
-                    
+                    </div>
                     <a href="https://github.com/wbdz69/Navigation-f-te-des-lumi-res" target="_blank" class="btn-git">
                         <i class="fa-brands fa-github"></i> Voir le code
                     </a>
                 </div>
             </article>
+
             <article class="card-projet" data-id="lecture-etoilee">
                 <div class="img-container">
                     <img src="assets/lectureEtoilee.png" alt="Capture Lecture Étoilée">
                 </div>
                 <div class="projet-info">
                     <h3>Lecture Étoilée</h3>
+                    <div class="competences-badges">
+                        <span class="badge-comp">C1 - Réaliser</span>
+                        <span class="badge-comp">C4 - Gérer</span>
+                    </div>
                     <p>
-                        Conception et développement d'un blog dynamique dédié à la littérature. La plateforme permet la publication de critiques, la notation de livres et la gestion d'une bibliothèque personnelle.
+                        Conception et développement d'un blog dynamique. Publication de critiques, notation et gestion de bibliothèque personnelle.
                     </p>
-                    
                     <div class="projet-highlights">
                         <ul>
-                            <li><i class="fa-solid fa-database"></i> CRUD complet (Articles, Commentaires)</li>
-                            <li><i class="fa-solid fa-lock"></i> Système d'authentification sécurisé</li>
-                            <li><i class="fa-solid fa-star"></i> Système de notation dynamique</li>
+                            <li><i class="fa-solid fa-database"></i> CRUD complet</li>
+                            <li><i class="fa-solid fa-lock"></i> Authentification</li>
+                            <li><i class="fa-solid fa-star"></i> Système de notation</li>
                         </ul>
                     </div>
-            
                     <div class="projet-tech-logos">
                         <i class="devicon-php-plain colored" title="PHP"></i>
                         <i class="devicon-mysql-plain colored" title="MySQL"></i>
                         <i class="devicon-html5-plain colored" title="HTML5"></i>
-                        <i class="devicon-css3-plain colored" title="CSS3"></i>
                     </div>
-                    
                     <a href="https://github.com/wbdz69/Lecture-toil-e-blog-php-" target="_blank" class="btn-git">
                         <i class="fa-brands fa-github"></i> Voir le code
                     </a>
@@ -182,11 +209,10 @@
             <div class="profil-content">
                 <div class="parcours">
                     <h3>Moi / Parcours</h3>
-                    <p></p>
-                    <p>Étudiant en 2ème année de BUT Informatique à l'universite Claude Bernard Lyon 1, je me spécialise en Réalisation d’Applications. 
-                        <p>Passionné par le développement logiciel et web, j'allie une approche rigoureuse à une maîtrise technique polyvalente afin de remplir mes objectifs, c'est à dire réaliser des solutions innovantes.</p>
-                        <p>Fort d'une pratique de 10 ans de basketball en compétition, je cultive l'esprit d'équipe et la persévérance.</p> 
-                        <p>Je maîtrise des environnements variés, et je recherche actuellement un stage pour mettre mes compétences au service de projets concrets.</p>
+                    <p>Étudiant en 2ème année de BUT Informatique à l'université Claude Bernard Lyon 1, je me spécialise en Réalisation d’Applications.</p>
+                    <p>Passionné par le développement logiciel et web, j'allie une approche rigoureuse à une maîtrise technique polyvalente afin de remplir mes objectifs, c'est-à-dire réaliser des solutions innovantes.</p>
+                    <p>Fort d'une pratique de 10 ans de basketball en compétition, je cultive l'esprit d'équipe et la persévérance.</p> 
+                    <p>Je maîtrise des environnements variés et je suis toujours à la recherche de projets concrets pour mettre en œuvre mes compétences.</p>
                 </div>
                 <div class="passions">
                     <h3>Mes Passions</h3>
@@ -201,49 +227,38 @@
                     <span><i class="fa-solid fa-location-dot"></i> Lyon</span>
                     <span><i class="fa-solid fa-car"></i> Permis B</span>
                 </div>
-                <a href="assets/CV_WAHIL_BOUDRAA.pdf" class="btn-main" target="_blank">
+                <a href="assets/CV_WAHIL_BOUDRAA.pdf" class="btn-main btn-cv" target="_blank">
                     Voir mon CV
                 </a>
             </div>
         </div>
     </section>
 
-
     <section id="contact">
         <h2>CONTACT</h2>
         <div class="contact-container">
             <form action="https://formspree.io/f/xnjbvnzz" method="POST">
-    
                 <div class="form-group">
-                    <div class="icon-wrapper">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
+                    <div class="icon-wrapper"><i class="fa-solid fa-user"></i></div>
                     <input type="text" name="nom" placeholder="Nom" required>
                 </div>
-            
                 <div class="form-group">
-                    <div class="icon-wrapper">
-                        <i class="fa-solid fa-envelope"></i>
-                    </div>
+                    <div class="icon-wrapper"><i class="fa-solid fa-envelope"></i></div>
                     <input type="email" name="email" placeholder="Email" required>
                 </div>
-            
                 <div class="form-group align-top">
-                    <div class="icon-wrapper">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                    </div>
+                    <div class="icon-wrapper"><i class="fa-solid fa-pen-to-square"></i></div>
                     <textarea name="message" placeholder="Message" required></textarea>
                 </div>
-            
                 <button type="submit" class="btn-envoyer">Envoyer</button>
             </form>
         </div>
     </section>
+
     <div id="project-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <div id="modal-body">
-                </div>
+            <div id="modal-body"></div>
         </div>
     </div>
 
